@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.control.TextField?>
+<VBox styleClass="container" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.javafxgame.TableViewController">
+
+
+    <HBox spacing="10.0" styleClass="header">
+        <Label alignment="CENTER" text="Game Management" styleClass="title" />
+        <Label fx:id="gameCountLabel" text="Game Count: " />
+
+    </HBox>
+
+    <TableView  fx:id="gametable" styleClass="game-table">
+        <columns>
+            <TableColumn text="ID" fx:id="id" prefWidth="100" />
+            <TableColumn text="Title" fx:id="title" prefWidth="100" />
+            <TableColumn text="Genre" fx:id="genre" prefWidth="100" />
+            <TableColumn text="Release Year" fx:id="releaseYear" prefWidth="100" />
+            <TableColumn text="Price" fx:id="price" prefWidth="100" />
+            <TableColumn text="Rating" fx:id="rating" prefWidth="100" />
+            <TableColumn text="Company" fx:id="company" prefWidth="100" />
+        </columns>
+    </TableView>
+
+    <VBox spacing="10.0">
+        <HBox spacing="10.0" alignment="CENTER">
+            <Button text="Add a game" fx:id="ajouter" onAction="#handleAjouterButtonAction" styleClass="fit-content-button" />
+            <Button text="Reload" fx:id="reload" onAction="#reload" />
+        </HBox>
+        <HBox spacing="10.0" alignment="BASELINE_RIGHT" >
+            <Button fx:id="okBtn" text="Import" onAction="#importer"/>
+            <Button fx:id="cancelBtn" text="Export" onAction="#exporter"/>
+        </HBox>
+    </VBox>
+
+</VBox>

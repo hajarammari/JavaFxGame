@@ -1,0 +1,141 @@
+.root {
+    -fx-background-color: #f2f2f2;
+}
+
+.login-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.username-label {
+    -fx-text-fill: black;
+}
+
+.username-input {
+    -fx-prompt-text-fill: grey;
+}
+
+.password-label {
+    -fx-text-fill: black;
+}
+
+.password-input {
+    -fx-prompt-text-fill: grey;
+}
+
+.container {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+#okBtn {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+
+#cancelBtn {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+#reload {
+    -fx-background-color: #0062cc;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-pref-height: 30px;
+    -fx-pref-width: 80px;
+    -fx-alignment: center;
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+}
+
+.container2 {
+    -fx-alignment: center;
+    -fx-spacing: 20.0;
+    -fx-padding: 20.0;
+}
+
+.header {
+    -fx-alignment: baseline-left;
+    -fx-spacing: 10.0;
+}
+
+.title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #0062cc;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.button-container {
+    -fx-alignment: baseline_right;
+    -fx-spacing: 10.0;
+}
+
+.game-table {
+    -fx-pref-width: 800px;
+    -fx-pref-height: 400px;
+    -fx-padding: 0 0 20px 0;
+}
+
+.fit-content-button {
+    -fx-min-width: 0;
+    -fx-pref-width: -1;
+    -fx-max-width: -1;
+}
+
+.root {
+    -fx-background-color: #f2f2f2;
+}
+
+.container {
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+#saveButton {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+}
+
+#clearButton {
+    -fx-background-color: #0062cc;
+    -fx-text-fill: white;
+}
+
+#backButton {
+    -fx-background-color: #808080;
+    -fx-text-fill: white;
+}
+
+.label-container {
+    -fx-alignment: baseline-left;
+    -fx-spacing: 10px;
+}
+
+.form-title {
+    -fx-font-size: 24px;
+    -fx-text-fill: #0062cc;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.button-container {
+    -fx-alignment: baseline_right;
+    -fx-spacing: 10px;
+}
+
+.button-container .button {
+    -fx-background-color: grey;
+    -fx-text-fill: white;
+}

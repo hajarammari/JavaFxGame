@@ -1,0 +1,191 @@
+[
+  {
+    "id": 58,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "releaseYear": 2011,
+    "price": 26.95,
+    "rating": 9,
+    "company": "Mojang Studios"
+  },
+  {
+    "id": 59,
+    "title": "FIFA 22",
+    "genre": "Sports",
+    "releaseYear": 2021,
+    "price": 59.99,
+    "rating": 8,
+    "company": "Electronic Arts"
+  },
+  {
+    "id": 60,
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "Action role-playing",
+    "releaseYear": 2015,
+    "price": 39.99,
+    "rating": 9,
+    "company": "CD Projekt"
+  },
+  {
+    "id": 61,
+    "title": "jj",
+    "genre": "jj",
+    "releaseYear": 1,
+    "price": 1.0,
+    "rating": 1,
+    "company": "jj"
+  },
+  {
+    "id": 62,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Action-adventure",
+    "releaseYear": 2017,
+    "price": 59.99,
+    "rating": 10,
+    "company": "Nintendo"
+  },
+  {
+    "id": 63,
+    "title": "Final Fantasy VII Remake",
+    "genre": "Role-playing",
+    "releaseYear": 2020,
+    "price": 49.99,
+    "rating": 9,
+    "company": "Square Enix"
+  },
+  {
+    "id": 64,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "releaseYear": 2011,
+    "price": 26.95,
+    "rating": 9,
+    "company": "Mojang Studios"
+  },
+  {
+    "id": 67,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "releaseYear": 2011,
+    "price": 26.95,
+    "rating": 9,
+    "company": "Mojang Studios"
+  },
+  {
+    "id": 68,
+    "title": "FIFA 22",
+    "genre": "Sports",
+    "releaseYear": 2021,
+    "price": 59.99,
+    "rating": 8,
+    "company": "Electronic Arts"
+  },
+  {
+    "id": 69,
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "Action role-playing",
+    "releaseYear": 2015,
+    "price": 39.99,
+    "rating": 9,
+    "company": "CD Projekt"
+  },
+  {
+    "id": 70,
+    "title": "jj",
+    "genre": "jj",
+    "releaseYear": 1,
+    "price": 1.0,
+    "rating": 1,
+    "company": "jj"
+  },
+  {
+    "id": 71,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Action-adventure",
+    "releaseYear": 2017,
+    "price": 59.99,
+    "rating": 10,
+    "company": "Nintendo"
+  },
+  {
+    "id": 72,
+    "title": "Final Fantasy VII Remake",
+    "genre": "Role-playing",
+    "releaseYear": 2020,
+    "price": 49.99,
+    "rating": 9,
+    "company": "Square Enix"
+  },
+  {
+    "id": 73,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "releaseYear": 2011,
+    "price": 26.95,
+    "rating": 9,
+    "company": "Mojang Studios"
+  },
+  {
+    "id": 74,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "releaseYear": 2011,
+    "price": 26.95,
+    "rating": 9,
+    "company": "Mojang Studios"
+  },
+  {
+    "id": 75,
+    "title": "FIFA 22",
+    "genre": "Sports",
+    "releaseYear": 2021,
+    "price": 59.99,
+    "rating": 8,
+    "company": "Electronic Arts"
+  },
+  {
+    "id": 76,
+    "title": "The Witcher 3: Wild Hunt",
+    "genre": "Action role-playing",
+    "releaseYear": 2015,
+    "price": 39.99,
+    "rating": 9,
+    "company": "CD Projekt"
+  },
+  {
+    "id": 77,
+    "title": "jj",
+    "genre": "jj",
+    "releaseYear": 1,
+    "price": 1.0,
+    "rating": 1,
+    "company": "jj"
+  },
+  {
+    "id": 78,
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "genre": "Action-adventure",
+    "releaseYear": 2017,
+    "price": 59.99,
+    "rating": 10,
+    "company": "Nintendo"
+  },
+  {
+    "id": 79,
+    "title": "Final Fantasy VII Remake",
+    "genre": "Role-playing",
+    "releaseYear": 2020,
+    "price": 49.99,
+    "rating": 9,
+    "company": "Square Enix"
+  },
+  {
+    "id": 80,
+    "title": "Minecraft",
+    "genre": "Sandbox",
+    "releaseYear": 2011,
+    "price": 26.95,
+    "rating": 9,
+    "company": "Mojang Studios"
+  }
+]
