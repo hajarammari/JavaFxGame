@@ -1,0 +1,30 @@
+77	Final Fantasy VII Remake	Role-playing	2020	49.99	0	Square Enix
+78	Minecraft	Sandbox	2011	26.95	9	Mojang Studios
+79	FIFA 22	Sports	2021	59.99	8	Electronic Arts
+80	The Witcher 3: Wild Hunt	Action role-playing	2015	39.99	9	CD Projekt
+81	The Legend of Zelda: Breath of the Wild	Action-adventure	2017	59.99	10	Nintendo
+82	Final Fantasy VII Remake	Role-playing	2020	49.99	9	Square Enix
+83	Minecraft	Sandbox	2011	26.95	9	Mojang Studios
+84	FIFA 22	Sports	2021	59.99	8	Electronic Arts
+85	The Witcher 3: Wild Hunt	Action role-playing	2015	39.99	9	CD Projekt
+86	a	a	2	2.0	2	a
+87	The Legend of Zelda: Breath of the Wild	Action-adventure	2017	59.99	10	Nintendo
+88	Final Fantasy VII Remake	Role-playing	2020	49.99	9	Square Enix
+89	Minecraft	Sandbox	2011	26.95	9	Mojang Studios
+90	FIFA 22	Sports	2021	59.99	8	Electronic Arts
+91	The Witcher 3: Wild Hunt	Action role-playing	2015	39.99	9	CD Projekt
+92	The Legend of Zelda: Breath of the Wild	Action-adventure	2017	59.99	10	Nintendo
+93	Final Fantasy VII Remake	Role-playing	2020	49.99	9	Square Enix
+94	Minecraft	Sandbox	2011	26.95	9	Mojang Studios
+95	FIFA 22	Sports	2021	59.99	8	Electronic Arts
+96	The Witcher 3: Wild Hunt	Action role-playing	2015	39.99	9	CD Projekt
+97	The Legend of Zelda: Breath of the Wild	Action-adventure	2017	59.99	10	Nintendo
+98	Final Fantasy VII Remake	Role-playing	2020	49.99	9	Square Enix
+99	Minecraft	Sandbox	2011	26.95	9	Mojang Studios
+100	FIFA 22	Sports	2021	59.99	8	Electronic Arts
+101	The Witcher 3: Wild Hunt	Action role-playing	2015	39.99	9	CD Projekt
+102	The Legend of Zelda: Breath of the Wild	Action-adventure	2017	59.99	10	Nintendo
+103	Final Fantasy VII Remake	Role-playing	2020	49.99	9	Square Enix
+104	Minecraft	Sandbox	2011	26.95	9	Mojang Studios
+105	FIFA 22	Sports	2021	59.99	8	Electronic Arts
+106	The Witcher 3: Wild Hunt	Action role-playing	2015	39.99	9	CD Projekt

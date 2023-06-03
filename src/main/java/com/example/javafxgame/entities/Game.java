@@ -1,9 +1,11 @@
 package com.example.javafxgame.entities;
 
+import com.google.gson.annotations.SerializedName;
+
 import java.util.Objects;
 
 public class Game {
-
+    @SerializedName("id")
     private int id;
     private String title;
     private String genre;
@@ -23,15 +25,7 @@ public class Game {
         this.company=company;
     }
 
-    public Game() {
-
-    }
-
-    // Getters and Setters
-
-
-
-
+    public Game() {}
 
     public String getTitle() {
         return title;

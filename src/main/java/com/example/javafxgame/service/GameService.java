@@ -33,6 +33,7 @@ public class GameService {
         gameDao.exporterVersExcel(path);
 
     }
+
     public void importerDepuisExcel(String path){
         gameDao.importerDepuisExcel(path);
     }
@@ -43,11 +44,10 @@ gameDao.exporterVersTxt(path);
 
     public void importerDepuisTxt(String path) {
         gameDao.importerDepuisTxt(path);
-
     }
+
     public void exporterVersJson(String path) {
         gameDao.exporterVersJson(path);
-
     }
 
     public void importerDepuisJson(String path) {
@@ -56,24 +56,7 @@ gameDao.exporterVersTxt(path);
 
     // Method to get the number of games
     public int getNumberOfGames() {
-        int count = 0;
-        try {
-            Connection conn= DB.getConnection();
-            Statement statement = conn.createStatement();
-            ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) FROM games");
-
-            if (resultSet.next()) {
-                count = resultSet.getInt(1);
-            }
-
-//            resultSet.close();
-//            statement.close();
-//            conn.close();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-
-        return count;
+        return gameDao.getNumberOfGames();
     }
 
 }

@@ -1,6 +1,5 @@
 package com.example.javafxgame.dao.impl;
 
-
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.sql.Connection;
@@ -20,10 +19,9 @@ public class DB {
                 String url = props.getProperty("dburl");
                 conn = DriverManager.getConnection(url, props);
             } catch (SQLException e) {
-                System.err.println("Problème de chargement de Driver Manager");
+                System.err.println("Problème de chargement du Driver Manager");
             }
         }
-
         return conn;
     }
 
@@ -32,7 +30,7 @@ public class DB {
             try {
                 conn.close();
             } catch (SQLException e) {
-                System.err.println("Erreur de fermeture de connexion");
+                System.err.println("Erreur de la fermeture de connexion");
             }
         }
     }
@@ -40,12 +38,10 @@ public class DB {
     private static Properties loadProperties() {
         try (FileInputStream fs = new FileInputStream("src/main/resources/db.properties")) {
             Properties props = new Properties();
-
             props.load(fs);
-
             return props;
         } catch (IOException e) {
-            System.err.println("Erreur de chargement de proriétés");
+            System.err.println("Erreur de chargement des proriétés");
         }
         return null;
     }

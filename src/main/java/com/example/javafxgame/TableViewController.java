@@ -28,6 +28,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class TableViewController implements Initializable {
+    private GameService gameService;
     @FXML
     private TableColumn<Game, Integer> id;
     @FXML
@@ -44,19 +45,15 @@ public class TableViewController implements Initializable {
     private TableColumn<Game, String> company;
     @FXML
     private TableView<Game> gametable;
-
     @FXML
     private TextField rowCountLabel;
     @FXML
     private Button ajouter;
     @FXML
     private Label gameCountText;
-    private GameService gameService;
-
     private IntegerProperty rowCount;
     @FXML
     private Label gameCountLabel;
-
     ObservableList<Game> gameList = FXCollections.observableArrayList();
 
     public void reload(ActionEvent event) throws IOException {
@@ -105,6 +102,11 @@ public class TableViewController implements Initializable {
     void setGameService(GameService gameService) {
         this.gameService = gameService;
     }
+    @FXML
+    public  void exporter() {
+        gameService.exporterVersExcel("src/main/resources/ImportExportFiles/ExportExcel.xlsx");
+    }
+
 
     void loadData() {
         gameList.addAll(gameService.findAll());
@@ -127,21 +129,16 @@ public class TableViewController implements Initializable {
             Stage primaryStage = (Stage) ajouter.getScene().getWindow();
             primaryStage.setScene(afficherScene);
             primaryStage.show();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    @FXML
-    public  void exporter()
-    {
-        gameService.exporterVersExcel("src/main/resources/fileExcel.xlsx");
-    }
-    private Stage stage;
-    private Scene scene;
+
     @FXML
     public  void importer(ActionEvent event) throws IOException {
-        gameService.importerDepuisExcel("src/main/resources/fileExcel2.xlsx");
+        gameService.importerDepuisExcel("src/main/resources/ImportExportFiles/ImportExcel.xlsx");
         reload(event);
 
 

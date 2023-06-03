@@ -16,10 +16,14 @@ public interface GameDao {
 
     List<Game> findAll();
 
+    public int getNumberOfGames();
+
     public void exporterVersExcel(String path);
     public void importerDepuisExcel(String path) ;
+
     public void exporterVersJson(String path);
     public void importerDepuisJson(String path) ;
+
     public void exporterVersTxt(String path);
     public void importerDepuisTxt(String path) ;
 

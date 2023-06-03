@@ -7,7 +7,6 @@ module com.example.javafxgame {
     requires json.simple;
 
     opens com.example.javafxgame.entities to gson;
-
     opens com.example.javafxgame to javafx.fxml,javafx.base;
     exports com.example.javafxgame;
     exports com.example.javafxgame.entities;
